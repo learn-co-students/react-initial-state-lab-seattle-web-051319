@@ -1,9 +1,9 @@
-import React, { Component } from "react";
+import { Component } from "react";
 
 export default class Bomb extends Component {
 	
 	constructor(props) {
-		super(props);
+		super();
 		this.state = {secondsLeft: props.initialCount};
 	}
 	
